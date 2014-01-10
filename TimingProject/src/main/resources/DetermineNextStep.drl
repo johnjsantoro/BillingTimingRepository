@@ -1,0 +1,25 @@
+import com.cpo.timing.timingproject.DisputeObject;
+
+rule "approval required" ruleflow-group "NextStepGroup"
+no-loop
+
+when
+	$disputeObject : DisputeObject (disputedAmount >= 500.00)
+
+then
+	modify ($disputeObject) {
+		setApprovalRequired(true);
+	}
+end
+
+rule "approval NOT required" ruleflow-group "NextStepGroup"
+no-loop
+
+when
+	$disputeObject : DisputeObject (disputedAmount < 500.00)
+
+then
+	modify ($disputeObject) {
+		setApprovalRequired(false);
+	}
+end
