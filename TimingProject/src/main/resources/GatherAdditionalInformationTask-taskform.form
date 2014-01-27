@@ -1,0 +1,85 @@
+
+<form id="1802479263">
+<property name="subject" value=""/>
+<property name="name" value="GatherAdditionalInformationTask-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="10" name="disputeInfo_vendorName" type="InputText" id="1875185334">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;vendorName (disputeInfo)quot;"/>
+<property name="inputBinding" value="disputeInput/vendorName"/>
+<property name="outputBinding" value="disputeOutput/vendorName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="disputeInfo_researchRequired" type="CheckBox" id="59171159">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;researchRequired (disputeInfo)quot;"/>
+<property name="inputBinding" value="disputeInput/researchRequired"/>
+<property name="outputBinding" value="disputeOutput/researchRequired"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="disputeInfo_disputeDate" type="InputDate" id="2026583436">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;disputeDate (disputeInfo)quot;"/>
+<property name="inputBinding" value="disputeInput/disputeDate"/>
+<property name="outputBinding" value="disputeOutput/disputeDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="2" name="disputeInfo_approved" type="CheckBox" id="1556354276">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approved (disputeInfo)quot;"/>
+<property name="inputBinding" value="disputeInput/approved"/>
+<property name="outputBinding" value="disputeOutput/approved"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="8" name="disputeInfo_resolutionDate" type="InputDate" id="1024623358">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;resolutionDate (disputeInfo)quot;"/>
+<property name="inputBinding" value="disputeInput/resolutionDate"/>
+<property name="outputBinding" value="disputeOutput/resolutionDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="9" name="disputeInfo_transactionDate" type="InputDate" id="1047917063">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;transactionDate (disputeInfo)quot;"/>
+<property name="inputBinding" value="disputeInput/transactionDate"/>
+<property name="outputBinding" value="disputeOutput/transactionDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="4" name="disputeInfo_disputeId" type="InputTextShort" id="12418931">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;disputeId (disputeInfo)quot;"/>
+<property name="inputBinding" value="disputeInput/disputeId"/>
+<property name="outputBinding" value="disputeOutput/disputeId"/>
+<property name="fieldClass" value="java.lang.Short"/>
+</field>
+<field position="5" name="disputeInfo_disputeNotes" type="InputText" id="1910933984">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;disputeNotes (disputeInfo)quot;"/>
+<property name="inputBinding" value="disputeInput/disputeNotes"/>
+<property name="outputBinding" value="disputeOutput/disputeNotes"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="disputeInfo_approvalRequired" type="CheckBox" id="1056457173">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approvalRequired (disputeInfo)quot;"/>
+<property name="inputBinding" value="disputeInput/approvalRequired"/>
+<property name="outputBinding" value="disputeOutput/approvalRequired"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="disputeInfo_disputedAmount" type="InputTextBigDecimal" id="832259653">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;disputedAmount (disputeInfo)quot;"/>
+<property name="inputBinding" value="disputeInput/disputedAmount"/>
+<property name="outputBinding" value="disputeOutput/disputedAmount"/>
+<property name="fieldClass" value="java.math.BigDecimal"/>
+</field>
+<field position="0" name="disputeInfo_accountNumber" type="InputText" id="1751673923">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;accountNumber (disputeInfo)quot;"/>
+<property name="inputBinding" value="disputeInput/accountNumber"/>
+<property name="outputBinding" value="disputeOutput/accountNumber"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="disputeInput" name="#0000A0" type="dataModelerEntry" outId="disputeOutput" value="com.cpo.timing.timingproject.DisputeObject" id="disputeInfo"/>
+</form>
